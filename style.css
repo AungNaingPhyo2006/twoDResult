@@ -61,11 +61,30 @@ body{
     border: 1px solid #bfbfbf;
  }
 
- .wrapper .save-btn{
+.wrapper .save-am , .save-pm{
     margin-top: 20px;
     color: #fff;
     padding: 16px 0;
     background: #17a2b8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .wrapper .save-am span{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #000;
+ }
+ .wrapper .save-pm span{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #000;
  }
  .wrapper .footer{
     user-select: none;
